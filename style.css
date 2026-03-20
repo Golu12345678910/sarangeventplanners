@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+    background: #ff4d6d;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url('https://source.unsplash.com/1600x900/?wedding') no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+}
+
+/* Services */
+#services {
+    padding: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Contact */
+#contact {
+    padding: 40px;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+form button {
+    background: #ff4d6d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
